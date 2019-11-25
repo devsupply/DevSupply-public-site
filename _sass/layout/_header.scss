@@ -5,10 +5,7 @@
 ///
 
 /* Header */
-	@include vendor('background-size','30%');
-	@include vendor('background-image','url("../images/DEVsupply_L1.png")');
-	@include vendor('background-repeat','no-repeat');
-	@include vendor('background-position','center');
+
 	@include keyframes('reveal-header') {
 		0% { top: -4em; opacity: 0; }
 		100% { top: 0; opacity: 1; }
@@ -66,6 +63,10 @@
 		}
 
 		nav {
+			@include vendor('background-size','30%');
+			@include vendor('background-image','url("../images/DEVsupply_L1.png")');
+			@include vendor('background-repeat','no-repeat');
+			@include vendor('background-position','center');
 			@include vendor('display', 'flex');
 			@include vendor('justify-content', 'flex-end');
 			@include vendor('flex-grow', '1');
