@@ -1676,7 +1676,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f2849e !important;
+			color: #F9AC00 !important;
 		}
 
 	strong, b {
@@ -1897,12 +1897,12 @@
 			}
 
 			.icon.style2:hover {
-				color: #f2849e;
-				border-color: #f2849e;
+	color: #F9AC00;
+	border-color: #BB8100;
 			}
 
 			.icon.style2:active {
-				background-color: rgba(242, 132, 158, 0.1);
+	background-color: rgba(249,172,0,1.00);
 			}
 
 /* List */
