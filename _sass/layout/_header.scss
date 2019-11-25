@@ -5,7 +5,10 @@
 ///
 
 /* Header */
-
+	@include vendor('background-size','30%');
+	@include vendor('background-image','url("../images/DEVsupply_L1.png")');
+	@include vendor('background-repeat','no-repeat');
+	@include vendor('background-position','center');
 	@include keyframes('reveal-header') {
 		0% { top: -4em; opacity: 0; }
 		100% { top: 0; opacity: 1; }
