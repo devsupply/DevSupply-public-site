@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /sitemap-ui/
+Disallow: /tags/
+Disallow: /categories/
+Disallow: /
